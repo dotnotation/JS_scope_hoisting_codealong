@@ -25,3 +25,6 @@ function twinkleTwinkle(){
 
 // let and const are block scoped so they don't even read anything inside of the if statement
 // var is lexical scope
+// if you put all the console logs inside of the if statement, they would all be carroll
+// if you had const c = ["TRAD: Up above the world so high"] and in the true block had c.push("CARROLL: Up above the world you fly")
+    // the CARROLL would be added to the array with TRAD because we are not changing the reference 
